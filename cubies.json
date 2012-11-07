@@ -1,0 +1,58 @@
+{
+    "colorMap":{
+        "R"  :[1.0,0.0,0.0,1.0],
+        "G"  :[0.0,1.0,0.0,1.0],
+        "W"  :[1.0,1.0,1.0,1.0],
+        "B"  :[0.0,0.0,1.0,1.0],
+        "O"  :[1.0,0.5,0.0,1.0],
+        "Y"  :[1.0,1.0,0.0,1.0],
+        "Bla":[0.0,0.0,0.0,1.0]
+    },
+    "cubieMap":{
+        0 : ["R","Bla","Bla","Bla","Bla","Bla"],
+        1 : ["R","Bla","Bla","Bla","Bla","Bla"],
+        2 : ["R","Bla","Bla","Bla","Bla","Bla"],
+        3 : ["R","Bla","Bla","Bla","Bla","Bla"], 
+        4 : ["O","Bla","Bla","Bla","Bla","Bla"], 
+        5 : ["O","Bla","Bla","Bla","Bla","Bla"],
+        6 : ["O","Bla","Bla","Bla","Bla","Bla"],
+        7 : ["O","Bla","Bla","Bla","Bla","Bla"], 
+        8 : ["Bla","Bla","Bla","Bla","Bla","Bla"],
+        9 : ["Bla","Bla","Bla","Bla","Bla","Bla"],
+        10: ["Bla","Bla","Bla","Bla","Bla","Bla"],
+        11: ["Bla","Bla","Bla","Bla","Bla","Bla"],
+        12: ["Bla","Bla","Bla","Bla","Bla","Bla"],
+        13: ["Bla","Bla","Bla","Bla","Bla","Bla"], 
+        14: ["Bla","Bla","Bla","Bla","Bla","Bla"], 
+        15: ["Bla","Bla","Bla","Bla","Bla","Bla"],
+        16: ["Bla","Bla","Bla","Bla","Bla","Bla"],
+        17: ["Bla","Bla","Bla","Bla","Bla","Bla"], 
+        18: ["Bla","Bla","Bla","Bla","Bla","Bla"],
+        19: ["Bla","Bla","Bla","Bla","Bla","Bla"]        
+    }
+}
+
+{
+    "indicies":["RGW", "RWB","RYG","RBY","OWG","OGY","OYB","OBW","RW","RG","RB",
+        "RY","WG","GY","YB","BW","OG","OY","OB","OW"],
+    "RGW":{"value":0 ,"orientValues":{"R":0, "G":1, "W":2}, "printOrder":["R","G","W"]},
+    "RWB":{"value":1 ,"orientValues":{"R":0, "W":1, "B":2}, "printOrder":["R","W","B"]},
+    "RYG":{"value":2 ,"orientValues":{"R":0, "Y":1, "G":2}, "printOrder":["R","Y","G"]},
+    "RBY":{"value":3 ,"orientValues":{"R":0, "B":1, "Y":2}, "printOrder":["R","B","Y"]},
+    "OWG":{"value":4 ,"orientValues":{"O":0, "W":1, "G":2}, "printOrder":["O","W","G"]},
+    "OGY":{"value":5 ,"orientValues":{"O":0, "G":1, "Y":2}, "printOrder":["O","G","Y"]},
+    "OYB":{"value":6 ,"orientValues":{"O":0, "Y":1, "B":2}, "printOrder":["O","Y","B"]},
+    "OBW":{"value":7 ,"orientValues":{"O":0, "B":1, "W":2}, "printOrder":["O","B","W"]},
+    "RW" :{"value":8 ,"orientValues":{"R":0, "W":1},        "printOrder":["R","W"]},
+    "RG" :{"value":9 ,"orientValues":{"R":0, "G":1},        "printOrder":["R","G"]},
+    "RB" :{"value":10,"orientValues":{"R":0, "B":1},        "printOrder":["R","B"]},
+    "RY" :{"value":11,"orientValues":{"R":0, "Y":1},        "printOrder":["R","Y"]},
+    "WG" :{"value":12,"orientValues":{"W":0, "G":1},        "printOrder":["W","G"]},
+    "GY" :{"value":13,"orientValues":{"G":0, "Y":1},        "printOrder":["G","Y"]},
+    "YB" :{"value":14,"orientValues":{"Y":0, "B":1},        "printOrder":["Y","B"]},
+    "BW" :{"value":15,"orientValues":{"B":0, "W":1},        "printOrder":["B","W"]},
+    "OG" :{"value":16,"orientValues":{"O":0, "G":1},        "printOrder":["O","G"]},
+    "OY" :{"value":17,"orientValues":{"O":0, "Y":1},        "printOrder":["O","Y"]},
+    "OB" :{"value":18,"orientValues":{"O":0, "B":1},        "printOrder":["O","B"]},
+    "OW" :{"value":19,"orientValues":{"O":0, "W":1},        "printOrder":["O","W"]}  
+};
